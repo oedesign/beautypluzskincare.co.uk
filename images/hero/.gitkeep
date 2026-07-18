@@ -1,0 +1,5 @@
+Drop hero lifestyle photography here.
+Expected filename referenced in css/style.css: hero-lifestyle.jpg
+Recommended: portrait orientation, ~1000x1250px, warm/soft natural light.
+Until a real photo is added, the hero image panel gracefully falls back
+to a rose-gold/blush gradient (see .hero__image-wrap in style.css).
