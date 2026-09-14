@@ -88,6 +88,29 @@
   .hero__heading {
     max-width: none;
   }
+
+  .hero-carousel__arrow {
+    width: 38px;
+    height: 38px;
+  }
+
+  .hero-carousel__arrow svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .hero-carousel__arrow--prev {
+    left: var(--space-2xs);
+  }
+
+  .hero-carousel__arrow--next {
+    right: var(--space-2xs);
+  }
+
+  .promo-ticker__item {
+    padding-inline: var(--space-sm);
+    gap: var(--space-sm);
+  }
 }
 
 /* -----------------------------
@@ -259,6 +282,23 @@
 
   .contact-layout {
     grid-template-columns: 0.85fr 1fr;
+  }
+
+  .hero-carousel__arrow {
+    width: 56px;
+    height: 56px;
+  }
+
+  .hero-carousel__arrow--prev {
+    left: var(--space-lg);
+  }
+
+  .hero-carousel__arrow--next {
+    right: var(--space-lg);
+  }
+
+  .hero-carousel__content {
+    padding-inline: var(--space-lg);
   }
 
   .hero__inner {
